@@ -13,12 +13,7 @@ const projects = [
     image:
       "https://images.unsplash.com/photo-1606813907291-d86efa9b94db?auto=format&fit=crop&w=900&q=80",
   },
-  {
-    title: "PCOS Webinar Landing Page",
-    link: "https://pcos-webinar-psi.vercel.app/",
-    image:
-      "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?auto=format&fit=crop&w=900&q=80",
-  },
+
   {
     title: "Swati Sharma Yoga",
     link: "https://www.swatisharmayoga.com/",
@@ -71,7 +66,9 @@ const Projects = () => {
 
       <motion.p
         initial={{ opacity: 0 }}
-        whileInView={{ opacity: 1 }}
+        whileInView={
+          
+          { opacity: 1 }}
         transition={{ delay: 0.3 }}
         className="mt-4 text-center max-w-2xl mx-auto text-white/70"
       >

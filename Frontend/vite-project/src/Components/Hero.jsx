@@ -7,7 +7,7 @@ const Hero = () => {
       id="home"
       className="min-h-screen flex flex-col md:flex-row items-center justify-center gap-12 px-6 bg-[#2D3250] text-white"
     >
-      {/* TEXT */}
+      
       <div className="text-center md:text-left max-w-xl">
         <motion.h1
           initial={{ opacity: 0, y: 50 }}
