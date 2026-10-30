@@ -50,7 +50,7 @@ export default function Contact() {
         {/* Phone */}
         <motion.a
           whileHover={{ scale: 1.15 }}
-          href="tel:8754615978"
+          href="tel:8122046757"
           className={`${iconStyle} bg-[#2D3250] text-[#F8B179]`}
         >
           <FaPhoneAlt />
@@ -59,7 +59,7 @@ export default function Contact() {
         {/* WhatsApp */}
         <motion.a
           whileHover={{ scale: 1.15 }}
-          href="https://wa.me/918754615978?text=Hi%20Sabapathi,%20I%20want%20to%20work%20with%20you%20🙂"
+          href="https://wa.me/918122046757?text=Hi%20Sabapathi,%20I%20want%20to%20work%20with%20you%20🙂"
           target="_blank"
           className={`${iconStyle} bg-[#25D366] text-white`}
         >
